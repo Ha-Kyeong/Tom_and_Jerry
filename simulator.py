@@ -103,4 +103,4 @@ def simul():
         print([next_x, next_y], end='')
 
         path_list.append([next_x, next_y])
-        path_len += 1
+        path_len += 1 

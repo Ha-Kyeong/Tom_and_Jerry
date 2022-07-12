@@ -42,5 +42,3 @@ class MoveNext:
         global cannot_move
         cannot_move = is_out_map or is_obstacle
         return cannot_move
-
-
