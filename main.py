@@ -31,4 +31,4 @@ if __name__ == '__main__':
     show_map.Print_Map()
 
     # Simulates game
-    simul()
+    simul() 

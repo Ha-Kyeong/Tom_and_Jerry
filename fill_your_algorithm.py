@@ -71,4 +71,4 @@ class Shortest_Path_Algorithm(Position):
         ## Therefore, you need to match the variables of return to simulate.
         next_x = self.current_x + self.dir_x
         next_y = self.current_y + self.dir_y
-        return [next_x, next_y]
+        return [next_x, next_y] 
