@@ -13,8 +13,11 @@ The map consists of 4 components.
 ### 2. Simulation
 You can simulate the game on the terminal window by simulating "main.py" module. Once simulated, basic map info & organization and the result is shown on the map.  
 This is how the result is shown on the terminal.  
+code 1
 
-  This is Code
+     code 2 // code block 할 내용
+
+code 3 
 
 
 ## 3. Guideline for Environment setting
