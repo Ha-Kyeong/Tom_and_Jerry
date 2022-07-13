@@ -69,15 +69,11 @@ Did Tom reach Jerry?: Yes
 ```
 
 ### 3. Code your algorithm
-You have to fill the designated blank space in "fill_your_algorithm.py" module. This is where your own algorithm to determine 'self.dir_x' and 'self.dir_y' should be placed. 
+You have to fill the designated blank space in "fill_your_algorithm.py" module. This is where your own algorithm to determine 'self.dir_x' and 'self.dir_y' should be placed.
 '''
 class Shortest_Path_Algorithm(Position):
     def __init__(self, x: int, y: int) -> None: 
         super().__init__(x, y)
-        '''
-            If you want to store some values, define your variables here.
-            Using `self`-based variables, you can re-call the value of previous state easily.
-        '''
         self.dir_x = 0
         self.dir_y = 0
         
@@ -87,6 +83,7 @@ class Shortest_Path_Algorithm(Position):
         #### Code Here! ####
         
 '''
+
 WARNING: Do not change class/def name, arguments and return. Just fill the designated blank space.
 
 ## 3. Guideline for Environment setting
