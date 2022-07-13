@@ -15,7 +15,7 @@ You can simulate the game on the terminal window by simulating "main.py" module.
 This is how the result is shown on the terminal.  
 code 1
 
-     code 2 // code block 할 내용
+    code 2 // code block 할 내용
 
 code 3 
 
