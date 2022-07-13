@@ -12,13 +12,11 @@ The map consists of 4 components.
 
 ### 2. Simulation
 You can simulate the game on the terminal window by simulating "main.py" module. Once simulated, basic map info & organization and the result is shown on the map.  
-This is how the result is shown on the terminal.  
-code 1
-
-    code 2 // code block 할 내용
-
-code 3 
-
+This is how the result is shown on the terminal.
+```
+손 쉽게 만들 수 있는
+코드블럭
+```
 
 ## 3. Guideline for Environment setting
 Since this game only contains Python Standard Libraries (that is, automatically installed libraries when you installed python), you don't have to install any 3rd Party libraries. Therefore, you don't need to worry about the version setting or any conflict resulting from it.  
