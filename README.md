@@ -74,6 +74,10 @@ You have to fill the designated blank space in "fill_your_algorithm.py" module. 
 class Shortest_Path_Algorithm(Position):
     def __init__(self, x: int, y: int) -> None: 
         super().__init__(x, y)
+        '''
+            If you want to store some values, define your variables here.
+            Using `self`-based variables, you can re-call the value of previous state easily.
+        '''
         self.dir_x = 0
         self.dir_y = 0
         
