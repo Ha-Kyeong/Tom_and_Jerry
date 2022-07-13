@@ -1,7 +1,7 @@
 ## 1. Intro
 This game is named as "Tom and Jerry Game". 
 
-The cat (Tom) at the starting point should find the most effective path(that is, the shortest path) to the mouse (Jerry) at the destination. You have to develop your own algorithm to perform the task. 
+The cat (Tom) at the starting point should find the most effective path(that is, the shortest path) to the mouse (Jerry) at the destination. You have to develop your own algorithm to perform the task.  
 
 ## 2. How does the game work
 ### 1. Map  
@@ -67,6 +67,27 @@ I Caught you!!
 path length: 28
 Did Tom reach Jerry?: Yes
 ```
+
+### 3. Code your algorithm
+You have to fill the designated blank space in "fill_your_algorithm.py" module. This is where your own algorithm to determine 'self.dir_x' and 'self.dir_y' should be placed. 
+'''
+class Shortest_Path_Algorithm(Position):
+    def __init__(self, x: int, y: int) -> None: 
+        super().__init__(x, y)
+        '''
+            If you want to store some values, define your variables here.
+            Using `self`-based variables, you can re-call the value of previous state easily.
+        '''
+        self.dir_x = 0
+        self.dir_y = 0
+        
+
+    def algorithms(self):
+        
+        #### Code Here! ####
+        
+'''
+WARNING: Do not change class/def name, arguments and return. Just fill the designated blank space.
 
 ## 3. Guideline for Environment setting
 Since this game only contains Python Standard Libraries (that is, automatically installed libraries when you installed python), you don't have to install any 3rd Party libraries. Therefore, you don't need to worry about the version setting or any conflict resulting from it.  
