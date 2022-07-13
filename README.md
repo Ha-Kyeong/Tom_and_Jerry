@@ -1,5 +1,7 @@
 ## 1. Intro
-This game is named as "Tom and Jerry Game". The cat (Tom) at the starting point should find the most effective path(that is, the shortest path) to the mouse (Jerry) at the destination. You have to develop your own algorithm to perform the task. 
+This game is named as "Tom and Jerry Game". 
+
+The cat (Tom) at the starting point should find the most effective path(that is, the shortest path) to the mouse (Jerry) at the destination. You have to develop your own algorithm to perform the task. 
 
 ## 2. How does the game work
 ### 1. Map  
@@ -10,8 +12,14 @@ The map consists of 4 components.
 ⬜ : This is cell. Tom can pass it through.  
 🔵 : This is obstacle. Tom has to find path around the obstacle, since he cannot pass it through.  
 
+Once cells are selected as path, those cells appear as '..' on the final map. 
+
 ### 2. Simulation
-You can simulate the game on the terminal window by simulating "main.py" module. Once simulated, basic map info & organization and the result is shown on the map.  
+Run '''main.py''' module to simulate the game. Once simulated, following results appear on the terminal:
++ information and graphics of the initial map 
++ coordinates of the path that Tom has taken
++ graphics and evaluation of the final map 
+  
 This is how the result is shown on the terminal.
 ```
 >>> Tom & Jerry <<< 
