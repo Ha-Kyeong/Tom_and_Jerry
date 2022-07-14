@@ -111,6 +111,8 @@ Then, the files will be automatically pulled to your pc.
 ### 2. Download the zip file provided in the link below
 You can munually download the files on your pc. Be careful not to contain Hangeul letters in your directory address.
 
+Download zip file: https://drive.google.com/file/d/15yt0hRswq2PUtPMupbRwa595ufdp7Pgo/view?usp=sharing  
+
 
 ## 4. If you have any questions 
 Feel free to ask me at any time. You can contact me via mobile message, or email. 
