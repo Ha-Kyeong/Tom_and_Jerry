@@ -27,4 +27,4 @@ map = {
         ]
 }
 
-map_json = json.dumps(map, indent=4, sort_keys=True)  
+map_json = json.dumps(map, indent=4, sort_keys=True)
