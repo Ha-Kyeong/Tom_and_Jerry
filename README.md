@@ -5,7 +5,7 @@ The cat (Tom) at the starting point should find the most effective path(that is,
 
 
 ## 2. How does the game work
-### 1. Map  
+#### 1. Map  
 The map consists of 4 components.  
   
 🐈 : This is Tom. Tom is located at certain position on the map.  
@@ -15,8 +15,8 @@ The map consists of 4 components.
 
 Once cells are selected as path, those cells appear as '..' on the final map. 
 
-### 2. Simulation
-Run 'main.py' module to simulate the game. Once simulated, following results appear on the terminal:
+#### 2. Simulation
+Run `main.py` module to simulate the game. Once simulated, following results appear on the terminal:
 + information and graphics of the initial map 
 + coordinates of the path that Tom has taken
 + graphics and evaluation of the final map 
@@ -69,8 +69,8 @@ path length: 28
 Did Tom reach Jerry?: Yes
 ```
 
-### 3. Code your algorithm
-In 'fill_your_algorithm.py' module, complete the method 'algorithms' in the class 'Shortest_Path_Algorithm'. You have to code for 'self.dir_x' and 'self.dir_y' to determine the next position.
+#### 3. Code your algorithm
+In `fill_your_algorithm.py` module, complete the method `algorithms` in the class `Shortest_Path_Algorithm`. You have to code for 'self.dir_x' and 'self.dir_y' to determine the next position.
 ``` python
 class Shortest_Path_Algorithm(Position):
     def __init__(self, x: int, y: int) -> None: 
@@ -93,16 +93,21 @@ WARNING: Do not change class/def name, arguments and return. Just fill the desig
 
 ## 3. Guideline for Environment setting
 Since this game only contains Python Standard Libraries (that is, automatically installed libraries when you installed python), you don't have to install any 3rd Party libraries. Therefore, you don't need to worry about the version setting or any conflict resulting from it.  
-There are two ways to conduct this game on your pc.  
-### 1. Use git and VSCode
-Type this instruction on the terminal 
+There are two ways to simulate the game on your pc.  
+#### 1. Use git and VSCode
+Install git and VSCode.  
+
+How to install git: https://taewow.tistory.com/13
+How to install VSCode: https://velog.io/@eunyeong560/Visual-Studio-Code-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%B0%8F-%EC%84%A4%EC%B9%98-%EB%B0%A9%EB%B2%95
+
+After installing git and VSCode, type this instruction on the terminal 
 
     git clone https://github.com/Ha-Kyeong/Tom_and_Jerry.git
     
 Then, the files will be automatically pulled to your pc.
     
-### 2. Download the zip file provided in the link below
-You can munually download the files on your pc. Be careful not to contain Hangeul letters in you directory address.
+#### 2. Download the zip file provided in the link below
+You can munually download the files on your pc. Be careful not to contain Hangeul letters in your directory address.
 
 
 ## 4. If you have any questions 
