@@ -3,7 +3,6 @@ This game is named as "Tom and Jerry Game".
 
 The cat (Tom) at the starting point should find the most effective path(that is, the shortest path) to the mouse (Jerry) at the destination. You have to develop your own algorithm to perform the task.  
 
-***
 
 ## 2. How does the game work
 ### 1. Map  
@@ -91,11 +90,20 @@ class Shortest_Path_Algorithm(Position):
   
 WARNING: Do not change class/def name, arguments and return. Just fill the designated blank space.
 
+
 ## 3. Guideline for Environment setting
 Since this game only contains Python Standard Libraries (that is, automatically installed libraries when you installed python), you don't have to install any 3rd Party libraries. Therefore, you don't need to worry about the version setting or any conflict resulting from it.  
 There are two ways to conduct this game on your pc.  
 ### 1. Use git and VSCode
 Type this instruction on the terminal 
-    git clone 
-### 2. Make the files manually on your pc  
-copy and paste these files and on your pc.
+
+    git clone https://github.com/Ha-Kyeong/Tom_and_Jerry.git
+    
+Then, the files will be automatically pulled to your pc.
+    
+### 2. Download the zip file provided in the link below
+You can munually download the files on your pc. Be careful not to contain Hangeul letters in you directory address.
+
+
+## 4. If you have any questions 
+Feel free to ask me at any time. You can contact me via mobile message, or email. 
