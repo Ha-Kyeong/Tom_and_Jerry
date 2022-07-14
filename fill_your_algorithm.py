@@ -4,8 +4,6 @@ by determining the direction you would choose to go. You have to determine the d
 '''
 from typing import List
 from view_map import initial_Map
-import random
-
 '''
     ----------------------------------------------
     WARNING

@@ -52,12 +52,8 @@ class initial_Map:
                     self.cell_expr = graphic_design['obstacle'] # '🔵'
                 elif map["3.Cell"][y][x] == 'Tom': # Here is Tom
                     self.cell_expr = graphic_design['Tom'] # '🐈'
-                    global Tom_src
-                    Tom_src = [y,x]
                 elif map["3.Cell"][y][x] == "Jerry": # Here is Jerry
                     self.cell_expr = graphic_design['Jerry'] # '🐀'
-                    global Jerry_dst
-                    Jerry_dst = [y,x]
                 print(self.cell_expr, end="")
             print('')
         print()
@@ -70,18 +66,14 @@ class final_Map():
                 if map["3.Cell"][y][x] == 0: # There's no obstacle
                     self.cell_expr = graphic_design['path'] # '⬜'
                     for i in range(len(path_list)): 
-                        if path_list[i][1] == x and path_list[i][0] == y: # This cell is taken as path
+                        if path_list[i][0] == x and path_list[i][1] == y: # This cell is taken as path
                             self.cell_expr = graphic_design['path_taken'] # '..'
                 elif map["3.Cell"][y][x] == inf: # There is an obstacle
                     self.cell_expr = graphic_design['obstacle'] # '🔵'
                 elif map["3.Cell"][y][x] == 'Tom': # Here is Tom
                     self.cell_expr = graphic_design['Tom'] # '🐈'
-                    global Tom_src
-                    Tom_src = [y,x]
                 elif map["3.Cell"][y][x] == "Jerry": # Here is Jerry
                     self.cell_expr = graphic_design['Jerry'] # '🐀'
-                    global Jerry_dst
-                    Jerry_dst = [y,x]
                 
                 print(self.cell_expr, end="")
             print('')  

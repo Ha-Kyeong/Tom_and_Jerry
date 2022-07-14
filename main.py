@@ -2,7 +2,6 @@
 This module is the one you should simulate on the terminal.
 '''
 import json
-from queue import Queue
 from view_map import final_Map, initial_Map, map
 from fill_your_algorithm import Position, Shortest_Path_Algorithm
 from simulator import simul, terminate

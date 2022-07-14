@@ -3,7 +3,6 @@ This module simulates the game, using simul() function.
 And under specific cases, the simulation should be ended using terminate() function.
 '''
 from typing import List
-from sqlalchemy import false
 from view_map import initial_Map, final_Map, map
 from fill_your_algorithm import Position, Shortest_Path_Algorithm
 from move import MoveNext
@@ -20,7 +19,7 @@ path_list = []
 
 # This function makes the variable 'the_end' True, when the simulation should be ended.
 def terminate(current_x, current_y, next_x, next_y, path_len, error_flag) -> bool:
-    the_end = false
+    the_end = False
 
     # When path reaches Jerry
     if [current_x, current_y] == Jerry_dst:
@@ -76,7 +75,6 @@ def simul():
 
             # When variable 'move_next.check_out_of_map()' is true 
             elif move_next.check_out_of_map():
-                print([next_x, next_y])
                 print("Cannot go ahead")
                 print(f'path length: {path_len}')
                 print('Did Tom reach Jerry?: No')

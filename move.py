@@ -41,4 +41,4 @@ class MoveNext:
         # If either of these cases is true, 'cannot_move' is true
         global cannot_move
         cannot_move = is_out_map or is_obstacle
-        return cannot_move 
+        return cannot_move
