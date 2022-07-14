@@ -16,7 +16,7 @@ The map consists of 4 components.
 Once cells are selected as path, those cells appear as '..' on the final map. 
 
 ### 2. Simulation
-Run `main.py` module to simulate the game. Once simulated, following results appear on the terminal:
+Run `main.py` module to simulate the game. Once simulated, following results appear on the terminal.
 + information and graphics of the initial map 
 + coordinates of the path that Tom has taken
 + graphics and evaluation of the final map 
