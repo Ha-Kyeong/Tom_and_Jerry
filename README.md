@@ -97,8 +97,6 @@ There are two ways to simulate the game on your pc.
 ### 1. Use git and VSCode
 Install git and VSCode.  
 
-How to install git: https://taewow.tistory.com/13  
-How to install VSCode: https://velog.io/@eunyeong560/Visual-Studio-Code-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%B0%8F-%EC%84%A4%EC%B9%98-%EB%B0%A9%EB%B2%95
 + How to install git: https://taewow.tistory.com/13  
 + How to install VSCode: https://velog.io/@eunyeong560/Visual-Studio-Code-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%B0%8F-%EC%84%A4%EC%B9%98-%EB%B0%A9%EB%B2%95
 
